@@ -6,19 +6,16 @@ body {
 	font-weight: normal;
 	background: url(../images/old_comp_03.jpg) no-repeat center center fixed;
 	background-size: cover;
-	/*outline: #CDCCD4 2px dashed; */  /*test for layout*/ 
 }
 div#container {
-	width: 300px;
-	margin: 0 0 10px 0;
-	/*outline: #CDCCD4 2px dashed; */  /*test for layout*/
+    width: 300px;
 	border-radius: .85em;
-	background-color: #C0C0C0;
-	float: right;
+    background-color: #C0C0C0;
+    text-align: center;
+    margin-left: 325px;
 }
 h1 {
-	text-align: center;
-	text-shadow: .1em .15em .2em yellow;  /*.1em .15em .06em yellow;*/	
+	text-align: center;	
 }
 legend {
 	font-size: 1.2em;
@@ -28,40 +25,34 @@ ol, ul {
 }
 p#button {
 	clear: right;
-	margin: 130px 0 0 100px;
+	margin: 130px 0 0 430px;
 	font-family: Arial;
 	font-size: 24px;
 	font-weight: bold;
-	margin: 130px 0 0 100px;
 	text-transform: uppercase;
 }
 a {
   text-decoration: none;
 }
 a:link {
-    color: #99CCCC;
-  	border: yellow 3px solid; /*#9999CC*/
+    color: rgb(93, 238, 238);
+  	border: blue 3px solid;
   	border-radius: .5em;
   	box-shadow: .5px 5px 6px 1px #9999cc;
   	padding: 5px;
 }
-a:visited {
-    color: yellow;    /*#921A66*/
-}
 a:focus {
-	color: #921A66;   /*#921A66;*/
+	color: #921A66;
 }
 a:hover {
-    color: #00FF00;   /*light green #00FF00*/   
+    color: #00FF00;  
 }
 a:active {
 	color: #00FF66;
 	background: #FFF;
 }
 div#footer {
-	text-shadow: .1em .15em .2em yellow;
 	font-size: 1.1em;
   	text-align: center;
   	margin: 2% 0; 
-   /*background-color: #AAAAAA;*/  /*sets location during build*/
 }
